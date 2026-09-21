@@ -60,13 +60,13 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.15,
           "pad_connection": 1,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.5,
-          "thermal_relief_spoke_width": 0.5
+          "thermal_relief_gap": 0.35,
+          "thermal_relief_spoke_width": 0.35
         }
       },
       "diff_pair_dimensions": [
@@ -165,9 +165,9 @@
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.152,
-        "min_via_annular_width": 0.152,
-        "min_via_diameter": 0.6,
-        "solder_mask_to_copper_clearance": 0.1,
+        "min_via_annular_width": 0.075,
+        "min_via_diameter": 0.45,
+        "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -540,7 +540,7 @@
       },
       {
         "name": "GND",
-        "pcb_color": "rgb(0, 0, 0)",
+        "pcb_color": "rgb(132, 132, 132)",
         "priority": 4,
         "schematic_color": "rgb(0, 0, 0)",
         "tuning_profile": ""
@@ -778,7 +778,7 @@
         "uuid": "f516446e-9f0f-421c-ad1d-4e080e242bed"
       }
     ],
-    "used_designators": "#PWR23,#PWR44,J5",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
