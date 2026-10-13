@@ -14677,7 +14677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:TSSOP-8_3x3mm_P0.65mm"
+		(property "Footprint" "Package_Sorën:SSOP-8_3.9x5.05mm_P1.27mm"
 			(at 159.766 96.52 0)
 			(hide yes)
 			(show_name no)
